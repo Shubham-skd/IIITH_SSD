@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>TEAM FORM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="signup" class="form">
+            <h1>Team Form</h1>
+            <div class="form-field">
+                <label for="username">Manager Name:</label>
+                <input type="text" name="username" id="username" autocomplete="off" required>
+                <small></small>
+            </div>
+			<br>
+            <div class="form-field">
+                <label for="email">Group Email:</label>
+                <input type="text" name="email" id="email" autocomplete="off" required>
+                <small></small>
+            </div><br>
+			<div class="form-field">
+                <label for="servername">Server Username:</label>
+                <input type="text" name="servername" id="servername" autocomplete="off" required>
+                <small></small>
+            </div><br>
+
+            <div class="form-field">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" autocomplete="off" required>
+                <small></small>
+            </div><br>
+
+
+            <div class="form-field">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" name="confirm-password" id="confirm-password" autocomplete="off" required>
+                <small></small>
+            </div><br>
+			<label for="lead">Team Lead:</label>
+			<select name="tlead" id="tlead">
+			<option value="Raman">Raman</option>
+			<option value="Raghav">Raghav</option>
+			<option value="Manav">Manav</option>
+			<option value="Aadit">Aadit</option>
+			</select><br>
+<br>
+            <div class="form-field">
+                <input type="submit" value="Sign Up">
+            </div>
+        </form>
+    </div>
+
+    <script src="checkjs.js"></script>
+</body>
+</html>
